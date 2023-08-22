@@ -1,0 +1,20 @@
+.Filter-icon {
+    border-top: 1px solid var(--grey);
+    padding: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;   
+}
+.links-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.links-imgs{
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
