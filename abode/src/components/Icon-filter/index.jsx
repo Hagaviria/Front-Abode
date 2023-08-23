@@ -9,7 +9,7 @@ export default function IconFilter() {
         { links.map((item, i)=>(
             <div key={i} className='links-icon'>
         <img  src={item.imgSrc} className='links-imgs'/>
-        <p> {item.label}</p>
+        <p className='links-label'> {item.label}</p>
         </div>
         ))}
     </div>

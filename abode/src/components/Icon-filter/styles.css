@@ -11,10 +11,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 0.5rem 2rem;
 }
 .links-imgs{
     width: 2rem;
     height: 2rem;
     object-fit: contain;
+}
+.links-label{
+    font-size:0.8rem;
+    font-weight: 800;
 }

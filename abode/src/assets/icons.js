@@ -47,27 +47,7 @@ export const links = [
     {
       label: "Lakefront",
       imgSrc:
-        "https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg",
+        "https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg",
     },
     {
       label: "Lakefront",
@@ -89,29 +69,6 @@ export const links = [
       imgSrc:
         "https://a0.muscache.com/pictures/3726d94b-534a-42b8-bca0-a0304d912260.jpg",
     },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/33dd714a-7b4a-4654-aaf0-f58ea887a688.jpg",
-    },
-    {
-      label: "Lakefront",
-      imgSrc:
-        "https://a0.muscache.com/pictures/ee9e2a40-ffac-4db9-9080-b351efc3cfc4.jpg",
-    },
+   
+   
   ];
