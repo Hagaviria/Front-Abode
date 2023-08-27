@@ -12,6 +12,12 @@
     justify-content: center;
     align-items: center;
     margin: 0.5rem 2rem;
+    opacity: 0.5;
+}
+.links-icon:hover{
+    opacity: 1;
+    border-bottom: 1px solid var(--black);
+
 }
 .links-imgs{
     width: 1.6rem;
@@ -21,4 +27,5 @@
 .links-label{
     font-size:0.8rem;
     font-weight: 800;
+   
 }
