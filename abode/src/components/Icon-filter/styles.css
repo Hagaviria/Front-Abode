@@ -2,7 +2,7 @@
     border-top: 1px solid var(--grey);
     padding: 1px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     overflow-x: auto;   
 }
@@ -14,8 +14,8 @@
     margin: 0.5rem 2rem;
 }
 .links-imgs{
-    width: 2rem;
-    height: 2rem;
+    width: 1.6rem;
+    height: 1.6rem;
     object-fit: contain;
 }
 .links-label{
