@@ -4,6 +4,8 @@ import MenuItem from "@mui/material/MenuItem";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
 import "./styles.css";
+import { Link } from 'react-router-dom';
+
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -14,6 +16,7 @@ export default function BasicMenu() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+ 
 
   return (
     <div>
@@ -45,10 +48,10 @@ export default function BasicMenu() {
         }}
       >
         <MenuItem className="menu-items" onClick={handleClose}>
-          Sign up
+        <Link className="link-menu" to="/signup">Sign up</Link> 
         </MenuItem>
         <MenuItem onClick={handleClose} className="menu-items">
-          Login
+     <Link className="link-menu" to="/login">Login</Link> 
         </MenuItem>
         <div
           style={{
