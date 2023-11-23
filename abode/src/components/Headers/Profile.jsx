@@ -53,6 +53,9 @@ export default function BasicMenu() {
         <MenuItem onClick={handleClose} className="menu-items">
      <Link className="link-menu" to="/login">Login</Link> 
         </MenuItem>
+        <MenuItem onClick={handleClose} className="menu-items">
+     <Link className="link-menu" to="/image">Image</Link> 
+        </MenuItem>
         <div
           style={{
             height: "1px",

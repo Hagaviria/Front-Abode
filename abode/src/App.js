@@ -6,7 +6,7 @@ import Cards from './components/Card/card';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Login from './components/Login/login';
 import Signup from './components/Signup/signup';
-
+import ImageUploadForm from './components/image';
 function App() {
   return (
     <Router>
@@ -16,6 +16,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/image" element={<ImageUploadForm />} />
           
         </Routes>
 

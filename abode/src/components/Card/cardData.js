@@ -1,42 +1,15 @@
-import hotel from "../../assets/img/hotel1.jpg"
-
-export default function CardData(){
-    const cardData=[
-        {
-        title:"Place1",
-        rating:4.88,
-        image:hotel        
-    },
-    {
-        title:"Place1",
-        rating:4.88,
-        image:hotel        
-    },
-    {
-        title:"Place1",
-        rating:4.88,
-        image:hotel        
-    },
-    {
-        title:"Place1",
-        rating:4.88,
-        image:hotel        
-    },
-    {
-        title:"Place1",
-        rating:4.88,
-        image:hotel        
-    },
-    {
-        title:"Place1",
-        rating:4.88,
-        image:hotel        
-    },
-    {
-        title:"Place1",
-        rating:4.88,
-        image:hotel        
+export async function fetchCardData() {
+    try {
+      const response = await fetch("https://localhost:7282/api/images");
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error al obtener datos de la API', error);
+      return [];
     }
-    ]
-    return cardData;
-}
+  }
+  
+  export default async function CardData() {
+    return await fetchCardData();
+  }
+  
